@@ -1,12 +1,13 @@
 ---
 on:
-  issues:
+  issues: 
     types: [opened]
 
 permissions: read-all
 
 safe-outputs:
-    add-comment:
+  add-comment:
+
 engine: copilot
 ---
 
