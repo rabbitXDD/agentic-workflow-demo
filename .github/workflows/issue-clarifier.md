@@ -8,7 +8,9 @@ permissions: read-all
 safe-outputs:
   add-comment:
 
-engine: copilot
+engine: 
+  id: copilot
+  model: gpt-4o
 ---
 
 # Issue 釐清小幫手
